@@ -1,0 +1,60 @@
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content {
+  background-color: #fefefe;
+  padding: 20px;
+  margin: auto;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 80%;
+  height: 750px;
+  max-height: 80%;
+  border-radius: 25px;
+}
+.close {
+    color: darkgray;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.site a {
+    text-decoration: none;
+    text-shadow: none;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    color:blueviolet;
+}
+.site a:visited, a:active {
+    color:blueviolet;
+    text-shadow: 1px 1px 10px #eee;
+}
+.site a:hover, .glow {
+    color: #ff0;
+    text-shadow: 0 0 9px #000;
+}
+object {
+  display: block;
+  width: 100%;
+  height: 95%;
+  overflow: auto;
+  border-radius: 25px;
+}
