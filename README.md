@@ -19,6 +19,3 @@ Define how the modal buttons look on page
 
 ### modal.js
 What happens to the modal and define how the visitor can exit the modal by selecting an 'X' to close or clicking outside the modal
-
-### License
-[MIT](./LICENSE)
